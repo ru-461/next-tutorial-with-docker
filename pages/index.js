@@ -1,5 +1,11 @@
+import Link from "next/link";
+
 const HomePage = () => {
-  return <>Welcome to Next.js!</>;
+  return (
+    <h1 className="title">
+      Read <Link href="/posts/first-post">this page!</Link>
+    </h1>
+  );
 };
 
 export default HomePage;
