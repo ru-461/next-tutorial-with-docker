@@ -1,11 +1,11 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "./layout.module.css";
-import utilStyles from "../styles/utils.module.css";
-import Link from "next/link";
+import Head from 'next/head'
+import Image from 'next/image'
+import styles from './layout.module.css'
+import utilStyles from '../styles/utils.module.css'
+import Link from 'next/link'
 
-const name = "R";
-export const siteTitle = "Next Tutorial with Docker";
+const name = 'R'
+export const siteTitle = 'Next Tutorial with Docker'
 
 const Layout = ({ children, home }) => {
   return (
@@ -69,7 +69,7 @@ const Layout = ({ children, home }) => {
         </div>
       )}
     </div>
-  );
-};
+  )
+}
 
-export default Layout;
+export default Layout

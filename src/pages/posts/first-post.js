@@ -1,7 +1,7 @@
-import Link from "next/link";
-import Head from "next/head";
-import Script from "next/script";
-import Layout from "../../components/layout";
+import Link from 'next/link'
+import Head from 'next/head'
+import Script from 'next/script'
+import Layout from '../../components/layout'
 
 const FirstPost = () => {
   return (
@@ -21,7 +21,7 @@ const FirstPost = () => {
         <Link href="/">Back to home</Link>
       </h2>
     </Layout>
-  );
-};
+  )
+}
 
-export default FirstPost;
+export default FirstPost
