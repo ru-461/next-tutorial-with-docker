@@ -4,7 +4,7 @@
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
-    "format": "prettier --write \"./src/**/*.{js,jsx}\""
+    "format": "prettier --write \"./src/**/*.{ts,tsx,js,jsx}\""
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
