@@ -12,11 +12,11 @@ const Home = () => {
         <p>Hello, everyone.</p>
         <p>
           This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.
+          <a href='https://nextjs.org/learn'>our Next.js tutorial</a>.
         </p>
         <p>
           The code for this site is available{' '}
-          <a href="https://github.com/ryu-461/next-tutorial-with-docker">
+          <a href='https://github.com/ryu-461/next-tutorial-with-docker'>
             here
           </a>
           .

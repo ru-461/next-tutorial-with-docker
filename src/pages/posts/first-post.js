@@ -10,15 +10,15 @@ const FirstPost = () => {
         <title>First Post</title>
       </Head>
       <Script
-        src="https://connect.facebook.net/en_US/sdk.js"
-        strategy="lazyOnload"
+        src='https://connect.facebook.net/en_US/sdk.js'
+        strategy='lazyOnload'
         onLoad={() =>
           console.log(`script loaded correctly, window.FB has been populated`)
         }
       />
       <h1>First Post</h1>
       <h2>
-        <Link href="/">Back to home</Link>
+        <Link href='/'>Back to home</Link>
       </h2>
     </Layout>
   )
