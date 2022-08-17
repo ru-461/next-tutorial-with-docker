@@ -3,10 +3,10 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "start": "next start",
+    "format": "prettier --write \"./src/**/*.{ts,tsx,js,jsx}\"",
     "lint": "next lint --dir src",
     "lint:fix": "yarn lint --fix",
-    "format": "prettier --write \"./src/**/*.{ts,tsx,js,jsx}\""
+    "start": "next start"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
