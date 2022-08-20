@@ -1,6 +1,6 @@
-# My Next.js Tutorial App
+# My Next.js Tutorial
 
-This app based on [Learn Next.js](https://nextjs.org/learn).
+Based on [Learn Next.js](https://nextjs.org/learn).
 
 # Set up
 
